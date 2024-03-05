@@ -1,0 +1,16 @@
+body {
+  background-color: powderblue;
+  font-family: times new roman;
+}
+h1 {
+  color: blue;
+  padding:100px;
+  font-size: 300%;
+}
+p {
+  color: red;
+}
+
+.tomasz{
+	background-color: dodgerblue;
+}

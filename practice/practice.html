@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Practice</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="./practice.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div id="navbar">
+                <ul id="myHeader">
+                    <li id="NavBar"><a id="BoxHeader" class="active" href="practice.html">Practice</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="bodies">
+
+
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
